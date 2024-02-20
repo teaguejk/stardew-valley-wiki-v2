@@ -62,6 +62,7 @@ body {
     background-color: #ffffff;
 
     .mat-sidenav {
+        box-shadow: 0 0 0 0 !important;
         position: fixed;
         display: flex;
         padding: 0px;
