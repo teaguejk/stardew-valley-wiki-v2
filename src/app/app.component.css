@@ -26,35 +26,59 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.burg {
-    transform: rotate(90deg)
+body {
+    margin: 0;
 }
 
-.mat-toolbar {
+
+.burg {
+    transform: rotate(90deg);
+    color: #ffffff
+}
+
+
+.mat-toolbar, .mat-toolbar-single-row {
     position: fixed;
-    top: 0;
+    display: flex;
+    padding: 0 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
     z-index: 2;
+    background-color: #2980b9;
+
+    h1 {
+        color: #ffffff;
+    }
+
 }
 
 .mat-sidenav-container {
-    height: 200rem;
+    position: fixed;
+    display: flex;
+    height: 100%;
     width: 200px;
+    left: 0;
     background-color: #ffffff;
 
     .mat-sidenav {
-        padding: 45px;
-        height: 200rem;
+        position: fixed;
+        display: flex;
+        padding: 0px;
+        height: 100%;
         width: 200px;
-        background-color: #eee;
+        top: 45px;
+        left: 0px;
+        background-color: #2980b9;
+
+        button {
+            color: #ffffff;
+            background-color: #2980b9;
+            border: none;
+            font-size: 14px;
+        }
     }
 }
-
-.mat-sidenav {
-    height: 200rem;
-    width: 200px;
-    background-color: #eee;
-}
-
 
 main {
     display: flex;
