@@ -45,19 +45,8 @@ main {
     position: relative;
 
     .content {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        max-width: 700px;
         margin-bottom: 1rem;
-    }
-
-    .left-side {
-        padding: 1rem;
-    }
-
-    .right-side {
-        padding: 1.5rem;
+        white-space:pre-wrap;
     }
 
     .content h1 {
@@ -67,12 +56,5 @@ main {
 
     .content p {
         margin-top: 1rem;
-    }
-
-    .divider {
-        width: 4px;
-        background: var(--blue-to-green-vertical-gradient);
-        margin-inline: 1rem;
-        margin-top: 2rem;
     }
 }
