@@ -54,30 +54,25 @@ body {
 }
 
 .mat-sidenav-container {
-    position: fixed;
-    display: flex;
-    height: 100%;
-    width: 180px;
-    left: 0;
     background-color: #ffffff;
 
     .mat-sidenav {
         box-shadow: 0 0 0 0 !important;
         position: fixed;
-        display: flex;
-        padding: 0 0px;
-        height: 100%;
         width: 180px;
         top: 45px;
         left: 0px;
         background-color: #2980b9;
 
-        a {
+        .nav-item {
+            display: inline-block;
+            height: auto;
+            width: auto;
             color: #ffffff;
             background-color: #2980b9;
             border: none;
             font-size: 14px;
-            display: inline;
+            margin-top: 6px;
         }
     }
 }

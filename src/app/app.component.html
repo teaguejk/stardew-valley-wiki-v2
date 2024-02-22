@@ -7,10 +7,11 @@
 
 <mat-sidenav-container>
   <mat-sidenav [(opened)]="opened" mode="over">
-    <mat-nav-list>
-      <a mat-list-item routerLink='/home' (click)="opened=!opened">Home</a>
+    <mat-nav-list  [disableRipple]="true">
+      <a mat-list-item class="nav-item" routerLink='/home' (click)="opened=!opened">Home</a>
+      <a mat-list-item class="nav-item" routerLink='/start' (click)="opened=!opened">Getting Started</a>
+      <a mat-list-item class="nav-item" routerLink='/skills' (click)="opened=!opened">Skills</a>
     </mat-nav-list>
   </mat-sidenav>
 </mat-sidenav-container>
-
 <router-outlet></router-outlet>
