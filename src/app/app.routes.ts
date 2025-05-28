@@ -5,7 +5,7 @@ import { QuickstartComponent } from './components/quickstart/quickstart.componen
 import { SkillsComponent } from './components/skills/skills.component';
 
 export const routes: Routes = [
-    {'path':'home', component:HomeComponent},
+    {'path':'', component:HomeComponent},
     {'path':'start', component:QuickstartComponent},
     {'path':'skills', component:SkillsComponent}
 ];
